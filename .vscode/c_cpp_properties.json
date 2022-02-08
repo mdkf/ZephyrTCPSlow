@@ -1,0 +1,83 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "d:/Michael/Documents/GitHub/ZephyrTCPSlow/include",
+                "d:/Michael/Documents/GitHub/ZephyrTCPSlow/src",
+                "C:/Users/mfowler/.platformio/packages/framework-zephyr/include",
+                "D:/Michael/Documents/GitHub/ZephyrTCPSlow/.pio/build/frdm_k64f/zephyr/include/generated",
+                "C:/Users/mfowler/.platformio/packages/framework-zephyr/soc/arm/nxp_kinetis/k6x",
+                "C:/Users/mfowler/.platformio/packages/framework-zephyr/lib/util/fnmatch",
+                "C:/Users/mfowler/.platformio/packages/framework-zephyr/subsys/net/l2",
+                "C:/Users/mfowler/.platformio/packages/framework-zephyr/subsys/net/lib/sockets",
+                "C:/Users/mfowler/.platformio/packages/framework-zephyr/_pio/modules/hal/cmsis/CMSIS/Core/Include",
+                "C:/Users/mfowler/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/devices/MK64F12",
+                "C:/Users/mfowler/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/components/phyksz8081",
+                "C:/Users/mfowler/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/drivers/kinetis",
+                "C:/Users/mfowler/.platformio/packages/framework-zephyr/_pio/modules/crypto/mbedtls/mbedtls/include",
+                "C:/Users/mfowler/.platformio/packages/framework-zephyr/modules/mbedtls/configs",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "d:/Michael/Documents/GitHub/ZephyrTCPSlow/include",
+                    "d:/Michael/Documents/GitHub/ZephyrTCPSlow/src",
+                    "C:/Users/mfowler/.platformio/packages/framework-zephyr/include",
+                    "D:/Michael/Documents/GitHub/ZephyrTCPSlow/.pio/build/frdm_k64f/zephyr/include/generated",
+                    "C:/Users/mfowler/.platformio/packages/framework-zephyr/soc/arm/nxp_kinetis/k6x",
+                    "C:/Users/mfowler/.platformio/packages/framework-zephyr/lib/util/fnmatch",
+                    "C:/Users/mfowler/.platformio/packages/framework-zephyr/subsys/net/l2",
+                    "C:/Users/mfowler/.platformio/packages/framework-zephyr/subsys/net/lib/sockets",
+                    "C:/Users/mfowler/.platformio/packages/framework-zephyr/_pio/modules/hal/cmsis/CMSIS/Core/Include",
+                    "C:/Users/mfowler/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/devices/MK64F12",
+                    "C:/Users/mfowler/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/components/phyksz8081",
+                    "C:/Users/mfowler/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/drivers/kinetis",
+                    "C:/Users/mfowler/.platformio/packages/framework-zephyr/_pio/modules/crypto/mbedtls/mbedtls/include",
+                    "C:/Users/mfowler/.platformio/packages/framework-zephyr/modules/mbedtls/configs",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50204",
+                "BUILD_VERSION=zephyr-v20701",
+                "BOARD_FLASH_SIZE=CONFIG_FLASH_SIZE*1024",
+                "CPU_MK64FN1M0VLL12",
+                "KERNEL",
+                "MBEDTLS_CONFIG_FILE=\"config-tls-generic.h\"",
+                "NDEBUG",
+                "_FORTIFY_SOURCE=2",
+                "__PROGRAM_START",
+                "__ZEPHYR__=1",
+                ""
+            ],
+            "cStandard": "c99",
+            "forcedInclude": [
+                "D:/Michael/Documents/GitHub/ZephyrTCPSlow/.pio/build/frdm_k64f/zephyr/include/generated/autoconf.h",
+                "C:/Users/mfowler/.platformio/packages/framework-zephyr/include/toolchain/zephyr_stdint.h",
+                ""
+            ],
+            "compilerPath": "C:/Users/mfowler/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mcpu=cortex-m4",
+                "-mthumb",
+                "-mabi=aapcs",
+                "-mfp16-format=ieee",
+                "-isystem",
+                "C:/Users/mfowler/.platformio/packages/framework-zephyr/lib/libc/minimal/include",
+                "-isystem",
+                "c:/users/mfowler/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/8.2.1/include",
+                "-isystem",
+                "c:/users/mfowler/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
