@@ -156,7 +156,7 @@ void sendData(){
 				p += out_len;
 				len -= out_len;
 			} while (len);
-			//k_usleep(1000);
+			k_usleep(2200);
 		}
 
 error:
